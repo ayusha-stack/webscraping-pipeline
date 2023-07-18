@@ -1,0 +1,5 @@
+DROP TABLE std.cast CASCADE;
+CREATE TABLE IF NOT EXISTS std.cast (
+    cast_id SERIAL PRIMARY KEY,
+    cast_name VARCHAR NOT NULL
+);
