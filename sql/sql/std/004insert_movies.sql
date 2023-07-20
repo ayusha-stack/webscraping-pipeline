@@ -8,4 +8,3 @@ SELECT
     REPLACE(REPLACE(REPLACE(movie_cast, '{', ''), '}', ''), '"', '') AS actor_names
 FROM
     raw.movies;
-SELECT * FROM std.movies;

@@ -1,8 +1,8 @@
 import os
 import pandas as pd
-from connection import PostgreSQLConnection
+from DATABASE.connection import PostgreSQLConnection
 from psycopg2.extras import execute_values
-from scrape import get_movies_by_genre, scrape_movies, save_movies_to_csv
+from scrape.scrape import get_movies_by_genre, scrape_movies, save_movies_to_csv
 
 # Function to execute an SQL file using the PostgreSQLConnection class
 def execute_sql_file(sql_file, db_connection):
