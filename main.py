@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from DATABASE.connection import PostgreSQLConnection
+from database.connection import PostgreSQLConnection
 from psycopg2.extras import execute_values
 from scrape.scrape import get_movies_by_genre, scrape_movies, save_movies_to_csv
 
